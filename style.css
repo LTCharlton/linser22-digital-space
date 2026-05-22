@@ -1,0 +1,50 @@
+/* Layout and Color Styling */
+body {
+  background-color: #121212; /* Dark background */
+  color: #d4d4d4; /* Grey text */
+  font-family: "Courier New", Courier, monospace; /* Clean terminal/typewriter font */
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 20px;
+  line-height: 1.6;
+}
+
+h1 {
+  color: #ffffff; /* Bright white for the main header */
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+/* Navigation Bar Styling */
+nav {
+  margin-bottom: 30px;
+  padding-bottom: 15px;
+  border-bottom: 1px dashed #555; /* Dashed separator line */
+}
+
+nav a {
+  color: #ffcc00; /* Yellow accent for links */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.nav-separator {
+  color: #555;
+  margin: 0 10px;
+}
+
+/* List Styling */
+ul {
+  list-style-type: square;
+  margin-bottom: 20px;
+}
+
+/* Footer Styling */
+footer {
+  margin-top: 40px;
+  padding-top: 20px;
+}
